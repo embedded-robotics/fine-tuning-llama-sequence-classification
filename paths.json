@@ -1,0 +1,14 @@
+{
+    "dc_summary_path": "/data/mn27889/DRG-LLaMA/physionet.org/files/mimic-iv-note/2.2/note/discharge.csv", 
+    "mimic_drg_path": "/data/mn27889/DRG-LLaMA/physionet.org/files/mimiciv/2.2/hosp/drgcodes.csv",
+    "drg_34_path": "/data/mn27889/DRG-LLaMA/data/DRG_34.csv",
+    "my_mapping_path":"/data/mn27889/DRG-LLaMA/data/DRG34_Mapping.csv",
+    "id2label_path": "/data/mn27889/DRG-LLaMA/data/id2label.csv",
+    "drg_34_dissection_path": "/data/mn27889/DRG-LLaMA/data/drg_34_dissection.csv",
+    "train_set_path": "/data/mn27889/DRG-LLaMA/data/new_train.csv",
+    "test_set_path": "/data/mn27889/DRG-LLaMA/data/new_test.csv",
+    "multi_train_set_path": "/data/mn27889/DRG-LLaMA/data/multi_train.csv",
+    "multi_test_set_path": "/data/mn27889/DRG-LLaMA/data/multi_test.csv",
+    "catche_path": "/data/mn27889/.cache/huggingface",
+    "output_path": "/data/mn27889/DRG-LLaMA/experiments"
+  }
