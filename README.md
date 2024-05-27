@@ -10,7 +10,7 @@ This code base fine-tunes LLaMA model with a sequence classification head to pre
 2. Discharge summaries are pre-processed to extract `brief hospital course` which is used as the input text
 3. Single label DRG related codes are then extracted using a combination of `data/DRG_34.csv`, `DRG34_Mapping.csv` and `id2label.csv`. These labels are then used as the output labels
 4. Base LLaMA model is then loaded using HuggingFace checkpoint `baffo32/decapoda-research-llama-7b-hf` and fine-tuned using sequence classification head to predict labelled DRG codes based on `brief hospital course` from discharge summaries
-5. Fine-tuned checkpoints are then used along with `Gradio` application to predict DRG code and corresponding text for a seamless user experience
+5. Fine-tuned checkpoints are then used along with `Gradio` application to predict DRG code and corresponding text for a seamless user experience. `testing_drg_llama` can be used for live inference via Gradio application
 
 
 ## Implementation Details
